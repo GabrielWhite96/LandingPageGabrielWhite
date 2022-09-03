@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div onclick="getElementById('close-menu').checked = false" class="main-content menu-content">
+            <h1>
+                <a href="#home-page">LOGO</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro-page">intro</a></li>
+                    <li><a href="#top3-page">top 3</a></li>
+                    <li><a href="#gallery-page">gallery</a></li>
+                    <li><a href="#work-page">work</a></li>
+                    <li><a href="#contact-page">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <aside class="menu-secondary">
+        <div><h6><a href="#home-page">LOGO</a></h6></div>
+    </aside>
+
+    <div class="space-menu"></div>
+    
+    <section id="home-page" class="home main-bg section">
+        <div class="main-content home-content">
+            <div class="home-text">
+                <h2>JANUARY BRINGS US FIREFOX 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="home-img">
+                <img src="assets/img/undraw_static_assets_rpm6.svg" alt="pessoas segurando e empurrando simbolos html, css e javascript">
+            </div>
+        </div>
+    </section>
+    <section id="intro-page" class="white-bg section">
+        <div class="main-content intro-content">
+            <h2>NEWS COVERAGE AND SOME SURPRISES</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+    <section id="top3-page" class="top3 main-bg section">
+        <div class="main-content top3-content">
+            <h2 class="main-grid-title">TOP 3 JOBS</h2>
+            <p class="main-grid-sub-title">Here are some recent work</p>
+            <div class="grid">
+                <article>
+                    <h5>Teste</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat, provident odit a temporibus laudantium porro, accusamus totam odio delectus vel quidem commodi sequi quasi recusandae, harum ullam mollitia magnam!</p>
+                </article>
+                <article>
+                    <h5>Teste</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eligendi maiores dolores cupiditate dignissimos? Distinctio nam error ducimus dolorum aspernatur ea eum itaque, laudantium sit quos suscipit perferendis assumenda praesentium!</p>
+                </article>
+                <article>
+                    <h5>teste</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus id voluptates iusto suscipit ducimus alias quod autem, amet repellat enim dolores blanditiis aperiam laudantium veritatis beatae in nam voluptatum natus.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery-page" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2 class="main-grid-title">GALLERY</h2>
+            <p class="main-grid-sub-title">Here are some recent work</p>
+            <div class="grid">
+                <div class="grid-img">
+                    <img src="http://source.unsplash.com/random/720x720?r=1" alt="random image from unsplash">
+                </div>
+                <div class="grid-img">
+                    <img src="http://source.unsplash.com/random/720x720?r=2" alt="random image from unsplash">
+                </div>
+                <div class="grid-img">
+                    <img src="http://source.unsplash.com/random/720x720?r=3" alt="random image from unsplash">
+                </div>
+                <div class="grid-img">
+                    <img src="http://source.unsplash.com/random/720x720?r=4" alt="random image from unsplash">
+                </div>
+                <div class="grid-img">
+                    <img src="http://source.unsplash.com/random/720x720?r=5" alt="random image from unsplash">
+                </div>
+                <div class="grid-img">
+                    <img src="http://source.unsplash.com/random/720x720?r=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work-page" class="main-bg section">
+        <div class="main-content top3-content">
+            <h2 class="main-grid-title">RECENT JOBS</h2>
+            <p class="main-grid-sub-title">Here are some recent work</p>
+            <div class="grid">
+                <article>
+                    <h5>Teste</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quaerat, provident odit a temporibus laudantium porro, accusamus totam odio delectus vel quidem commodi sequi quasi recusandae, harum ullam mollitia magnam!</p>
+                </article>
+                <article>
+                    <h5>Teste</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eligendi maiores dolores cupiditate dignissimos? Distinctio nam error ducimus dolorum aspernatur ea eum itaque, laudantium sit quos suscipit perferendis assumenda praesentium!</p>
+                </article>
+                <article>
+                    <h5>teste</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus id voluptates iusto suscipit ducimus alias quod autem, amet repellat enim dolores blanditiis aperiam laudantium veritatis beatae in nam voluptatum natus.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing-page" class="white-bg section">
+        <div class="main-content intro-content">
+            <h2>PRICING</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolore distinctio consectetur hic esse tempore provident quos quis! Nihil magni facilis, unde adipisci ipsa aliquam dolores a. Laboriosam, ullam ea.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>title 1</th>
+                            <th>title 2</th>
+                            <th>title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Testing</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact-page" class="home main-bg section">
+        <div id="contact-content" class="main-content contact-content">
+            <div class="contact-text">
+                <h2>JANUARY BRINGS US FIREFOX 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="contact-img">
+                <img src="assets/img/undraw_social_expert_re_elbp.svg" alt="pessoa mechendo com icones de redes sociáis">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">Fist Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5" ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" >Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="main-footer" class="main-footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/GabrielWhite96">Made by Gabriel Fernandes</a></p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+</html>
