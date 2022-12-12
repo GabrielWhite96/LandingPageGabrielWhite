@@ -428,7 +428,7 @@ thead th, tfoot td {
     .menu-content, .menu-content ul {
         flex-direction: column;
         justify-content: center;
-    }
+    } 
     
     .menu-content {
         height: 100vh;
